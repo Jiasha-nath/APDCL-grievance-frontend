@@ -1,0 +1,52 @@
+.custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .toolbar-buttons {
+    display: flex;
+    gap: 1rem; /* Adjust the spacing between buttons as needed */
+    align-items: center;
+  }
+
+  .text-primary {
+    transition: font-size 0.3s ease; /* Add a transition effect for font size changes */
+  }
+
+  .nav-link{
+    color: blue!important;
+  }
+
+  .nav-link:hover{color: #F4A460!important;}
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    .custom-toolbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .toolbar-buttons {
+      margin-top: 1rem;
+    }
+  
+    .text-primary {
+      font-size: 14px; /* Adjust the font size as needed */
+    }
+  }
+
+.logo-img {
+    width: 90px; /* Allow the logo to adjust its width */
+    height: auto; /* Maintain the aspect ratio */
+    transition: font-size 0.3s ease;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .logo-img {
+      max-width: 60px; /* Adjust the maximum width for smaller screens */
+    }
+  }
+

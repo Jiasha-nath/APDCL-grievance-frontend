@@ -1,0 +1,135 @@
+<!--Close icon-->
+<div style="display: flex; justify-content:flex-end">
+    <button mat-icon-button style=" margin: 3px; position: fixed" matDialogClose>
+      <mat-icon>close</mat-icon>
+    </button>
+</div>
+<!--Form-->
+
+<div class="my-5 mx-5 ">
+  
+      <div>
+          <h3 class="text-center my-5">Grievance Form</h3>
+
+          <div class="row">
+            
+            <!-- Name -->
+          <div class="col">
+            
+            <div class="mb-3">
+              <label for="name" class="form-label" style="font-weight:bold">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Full Name">
+            </div>
+            
+           </div>
+
+           <!-- Email -->
+           <div class="col">
+            <div class="mb-3">
+              <label for="email" class="form-label" style="font-weight:bold">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="example@example.com">
+            </div>
+            
+          </div>
+        </div>
+
+         <div class="row">
+
+           <div class="col">
+             
+             <!-- Consumer ID -->
+             <div class="mb-3">
+               <label for="consumerId" class="form-label" style="font-weight:bold">Consumer ID</label>
+               <input type="text" class="form-control" id="consumerId" placeholder="12 digit code" for="customControlValidation1">
+              </div>
+            </div>
+            
+            <div class="col">
+              
+              
+              <!--Phone No.-->
+              
+              <div class="mb-3">
+                <label for="phnumber" class="form-label" style="font-weight:bold">Phone number</label>
+
+                <input type="tel" class="form-control" id="phnumber" placeholder="10 digit number">
+              </div>
+              
+            </div>
+          </div>
+
+           
+        <!-- Address -->
+        <div class="mb-3">
+          <label for="address" class="form-label" style="font-weight:bold">Address</label>
+          <textarea class="box2 form-control" id="address" rows="3"></textarea>
+      </div>
+      
+      <div class="row">
+
+        <div class="col">
+          
+          <!-- Pincode -->
+          <div class="mb-3">
+            <label for="pincode" class="form-label" style="font-weight:bold">Pincode</label>
+            <input type="text" class="form-control" id="pincode" placeholder="6 digit code">
+          </div>
+        </div>
+        
+        <!--District selection-->
+        <div class="col">
+          
+          <div class="mb-3">
+            <label for="district" class="form-label" style="font-weight:bold">District</label>
+            <select class="form-select" id="district">
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+            </select>
+          </div>
+        </div>    
+        
+      </div>
+          <!-- Complaint Type -->
+          <div class="mb-3">
+              <label for="complaintType" class="form-label" style="font-weight:bold">Complaint Type</label>
+              <select class="form-select" id="complaintType">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+              </select>
+          </div>
+
+           <!-- Complaint Level -->
+        <div class="mb-3 ">
+            <label class="form-label" style="font-weight:bold">Complaint Level</label>
+           <div class="d-flex justify-content-center">
+                  <mat-chip-listbox aria-label="Fish selection" >
+                      <mat-chip-option>Level 1</mat-chip-option>
+                      <mat-chip-option>Level 2</mat-chip-option>
+                      <mat-chip-option>Level 3</mat-chip-option>
+                   </mat-chip-listbox>
+            </div>
+        </div>
+          
+          <!-- Complaint -->
+          <div class="mb-3">
+              <label for="complaint" class="form-label" style="font-weight:bold">Complaint</label>
+              <textarea class="box form-control" id="complaint" rows="3"></textarea>
+          </div>
+        
+
+        <!--Attachment-->
+
+        <div class="mb-3">
+          <label for="attachment" class="form-label" style="font-weight:bold">Attachment File</label>
+          <input type="file" class="form-control" id="attachment" accept=".pdf">
+        </div>
+      
+        <mat-dialog-actions align="center">
+          <button mat-raised-button color="primary">Submit</button>
+          <button mat-raised-button color="warn" matDialogClose>Cancel</button>
+        </mat-dialog-actions>
+
+    </div>
+  
+</div>
+
