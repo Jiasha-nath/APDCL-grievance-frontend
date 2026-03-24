@@ -118,7 +118,7 @@ Status updates returned and displayed
 
 ## 📸 Screenshot
 
-![APDCL Grievance Portal](Screenshot%202023-07-25%20201649.png)
+![APDCL Grievance Portal](Screenshot 2026-03-24 160115.png)
 
 ---
 
